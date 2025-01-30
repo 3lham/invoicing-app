@@ -1,0 +1,31 @@
+{
+  "name": "invoicing-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "serve": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@marblejs/middleware-multipart": "^4.1.0",
+    "bcrypt": "^5.0.1",
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.4",
+    "sqlite3": "^5.0.2",
+    "umzug": "^2.3.0",
+    "validator": "^13.11.0",
+    "vue-router": "^4.4.3"
+  },
+  "description": ""
+}
